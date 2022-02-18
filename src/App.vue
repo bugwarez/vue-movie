@@ -61,15 +61,13 @@
                 </li>
                 <li>
                   <a class="dropdown-item" href="#">
-                    <span class="fa-li pe-2">
-                      <i class="fas fa-film"></i> </span
+                    <span class="fa-li pe-2"> <i class="fas fa-film"></i> </span
                     >Titles
                   </a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="#">
-                    <span class="fa-li pe-2">
-                      <i class="fas fa-tv"></i> </span
+                    <span class="fa-li pe-2"> <i class="fas fa-tv"></i> </span
                     >TV Episodes
                   </a>
                 </li>
@@ -89,8 +87,7 @@
                 </li>
                 <li>
                   <a class="dropdown-item" href="#">
-                    <span class="fa-li pe-2">
-                      <i class="fas fa-key"></i> </span
+                    <span class="fa-li pe-2"> <i class="fas fa-key"></i> </span
                     >Keywords
                   </a>
                 </li>
@@ -125,7 +122,7 @@
               </a>
             </li>
             <li class="nav-item mt-2 mx-2">
-              <a class="nav-link d-flex align-items-center" href="/watchlist">
+              <a class="nav-link d-flex align-items-center" href="/login">
                 <fa icon="right-to-bracket" />&nbsp;Login
               </a>
             </li>
@@ -151,15 +148,23 @@
   font-family: "Fira Sans", sans-serif;
 
   &::selection {
-    background: transparentize(#d6622d, 0.5);
+    background: transparentize(#f5c518, 0.5);
   }
 }
 
 body {
-  background-color: #eaeaea;
+  background-color: #343a40 !important;
 }
 a {
   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
 }
 
 .logo {
@@ -180,5 +185,18 @@ a {
 .fa-li {
   position: relative;
   left: 0;
+}
+.video_card {
+  background-color: #343a40 !important;
+  color: #fff !important;
+}
+.n-card.n-card--bordered {
+  border: 0 !important;
+}
+.n-card-header__main {
+  font-size: 1.6em;
+  color: #fff !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 </style>
