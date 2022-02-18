@@ -1,15 +1,15 @@
 <template>
   <div class="home">
-    <VerticalCarousel />
+    <WideCarousel />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import VerticalCarousel from "@/components/VerticalCarousel";
+import WideCarousel from "@/components/WideCarousel";
 export default {
   components: {
-    VerticalCarousel,
+    WideCarousel,
   },
 };
 </script>
